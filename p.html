@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankit Kumar Sahu| DSA Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <!-- Add Font Awesome for social media icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        .prime-bg {
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.9) 100%);
+        }
+
+        .prime-button {
+            transition: all 0.3s ease;
+        }
+
+        .prime-button:hover {
+            transform: scale(1.05);
+            filter: brightness(1.1);
+        }
+
+        .fade-in {
+            animation: fadeIn 1.5s ease-out;
+        }
+
+        .prime-sans {
+            font-family: "Amazon Ember", Arial, sans-serif;
+        }
+
+        .skill-tag {
+            transition: all 0.3s ease;
+        }
+
+        .skill-tag:hover {
+            transform: scale(1.1);
+        }
+
+        .prime-gradient {
+            background: linear-gradient(135deg, #00A8E1 0%, #0073BB 100%);
+        }
+
+        .social-icon {
+            transition: all 0.3s ease;
+        }
+
+        .social-icon:hover {
+            transform: scale(1.2);
+            filter: brightness(1.2);
+        }
+
+        .cast-image {
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 168, 225, 0.2);
+        }
+
+        .cast-image:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 168, 225, 0.4);
+        }
+    </style>
+</head>
+
+<body class="bg-gray-900 text-white prime-sans">
+    <!-- Prime Video Logo -->
+    <nav class="fixed top-0 w-full z-50 bg-gradient-to-b from-gray-900 to-transparent p-4">
+        <div class="text-blue-400 font-bold text-2xl">
+            Prime video
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="relative min-h-screen">
+        <div class="absolute inset-0 bg-gradient-to-b from-gray-900 via-transparent to-gray-900">
+            <img src="wp2732744-suits-wallpapers.jpg" alt="Background" class="w-full h-full object-cover opacity-40" />
+        </div>
+
+        <div class="relative pt-32 px-8 md:px-16 fade-in">
+
+
+            <!-- Title and Main Info -->
+            <h1 class="text-6xl font-bold mb-4">Ankit Kumar Sahu</h1>
+            <div class="flex items-center space-x-4 mb-6">
+                <span class="text-blue-400 font-bold">Top DSA Profile</span>
+                <span class="border px-2">2nd Year</span>
+                <span>BTech CSE</span>
+                <span class="border border-white px-2">IT</span>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="flex space-x-4 mb-8">
+                <button class="prime-button bg-blue-400 text-white px-8 py-2 rounded flex items-center space-x-2">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <span>View DSA Projects</span>
+                </button>
+                <button class="prime-button bg-gray-800 text-white px-8 py-2 rounded flex items-center space-x-2">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <span>More Info</span>
+                </button>
+            </div>
+
+            <!-- Description -->
+            <div class="max-w-3xl mb-8">
+                <p class="text-lg mb-4">Aspiring Software Developer at SRM Institute of Science and Technology,
+                    specializing
+                    in Information Technology with a strong foundation in Data Structures and Algorithms. Seeking
+                    internship
+                    opportunities at marquee companies to apply and enhance technical skills.</p>
+            </div>
+
+
+            <!-- DSA Skills Section -->
+            <div class="mb-8">
+                <h2 class="text-xl font-bold mb-4">DSA Concepts</h2>
+                <div class="flex flex-wrap gap-3">
+                    <span class="skill-tag bg-blue-400 px-4 py-1 rounded">Arrays & Strings</span>
+                    <span class="skill-tag bg-blue-400 px-4 py-1 rounded">Linked Lists</span>
+                    <span class="skill-tag bg-blue-400 px-4 py-1 rounded">Trees</span>
+                    <span class="skill-tag bg-blue-400 px-4 py-1 rounded">Dynamic Programming</span>
+                </div>
+            </div>
+
+            <!-- Programming Skills -->
+            <div class="mb-8">
+                <h2 class="text-xl font-bold mb-4">Implementation Skills</h2>
+                <div class="flex flex-wrap gap-3">
+                    <span class="skill-tag bg-blue-400 px-4 py-1 rounded">C Programming</span>
+                    <span class="skill-tag bg-blue-400 px-4 py-1 rounded">C++</span>
+                    <span class="skill-tag bg-blue-400 px-4 py-1 rounded">Java</span>
+                    <span class="skill-tag bg-blue-400 px-4 py-1 rounded">OOPS</span>
+                    <span class="skill-tag bg-blue-400 px-4 py-1 rounded">Problem Solving</span>
+
+                </div>
+            </div>
+
+            <!-- Languages -->
+            <div class="mb-8">
+                <h2 class="text-xl font-bold mb-4">Languages</h2>
+                <div class="flex flex-wrap gap-3">
+                    <span class="skill-tag bg-gray-700 px-4 py-1 rounded">Hindi</span>
+                    <span class="skill-tag bg-gray-700 px-4 py-1 rounded">Odia</span>
+                    <span class="skill-tag bg-gray-700 px-4 py-1 rounded">English</span>
+                    <span class="skill-tag bg-gray-700 px-4 py-1 rounded">German</span>
+                </div>
+            </div>
+
+            <!-- More Details -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+                <div>
+                    <h3 class="text-blue-400 mb-2">Education</h3>
+                    <p>BTech CSE with IT Specialization</p>
+                    <p>SRM Institute of Science and Technology</p>
+                </div>
+                <div>
+                    <h3 class="text-blue-400 mb-2">Course</h3>
+                    <p>Data Structures and Algorithms</p>
+                    <p>2nd Year Core Subject</p>
+                </div>
+                <div>
+                    <h3 class="text-blue-400 mb-2">Looking For</h3>
+                    <p>Internships at Marquee Companies</p>
+                </div>
+            </div>
+
+
+            <!-- Cast Section -->
+            <div class="mb-16">
+                <h2 class="text-3xl font-bold mb-8 text-blue-400">Cast</h2>
+                <div class="flex items-start space-x-8">
+                    <div class="cast-image bg-gray-800 rounded-lg overflow-hidden">
+                        <!-- Replace this img tag with your actual photo -->
+                        <img src="me.jpg" alt="Ankit Kumar Sahu" class="w-64 h-80 object-cover" />
+                        <div class="p-4">
+                            <h3 class="text-xl font-bold">Ankit Kumar Sahu</h3>
+                            <p class="text-blue-400">Lead Developer</p>
+                        </div>
+                    </div>
+
+                    <!-- Social Media Links Section -->
+                    <div class="flex-1 bg-gray-800 bg-opacity-50 rounded-lg p-6">
+                        <h2 class="text-2xl font-bold mb-6">Connect with the Actor</h2>
+                        <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
+                            <!-- GitHub -->
+                            <a href="https://github.com/Ankitkumar9955" target="_blank" rel="noopener noreferrer"
+                                class="social-icon flex items-center space-x-3 text-gray-300 hover:text-white">
+                                <i class="fab fa-github text-3xl"></i>
+                                <span>GitHub</span>
+                            </a>
+
+                            <!-- LinkedIn -->
+                            <a href="https://www.linkedin.com/in/ankit-kumar-sahu9955/" target="_blank"
+                                rel="noopener noreferrer"
+                                class="social-icon flex items-center space-x-3 text-gray-300 hover:text-white">
+                                <i class="fab fa-linkedin text-3xl"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                            <!-- Twitter/X -->
+                            <a href="https://x.com/anrish_kumar" target="_blank" rel="noopener noreferrer"
+                                class="social-icon flex items-center space-x-3 text-gray-300 hover:text-white">
+                                <i class="fab fa-twitter text-3xl"></i>
+                                <span>Twitter</span>
+                            </a>
+
+                            <!-- Medium -->
+                            <a href="https://medium.com/@anrish.555" target="_blank" rel="noopener noreferrer"
+                                class="social-icon flex items-center space-x-3 text-gray-300 hover:text-white">
+                                <i class="fab fa-medium text-3xl"></i>
+                                <span>Medium</span>
+                            </a>
+                        </div>
+
+
+
+                        <!-- Additional Info -->
+                        <div class="mt-8 p-4 bg-gray-900 bg-opacity-50 rounded">
+                            <h3 class="text-xl font-bold mb-2">Featured In</h3>
+                            <div class="flex items-start space-x-8">
+                                <div class="cast-image bg-gray-800 rounded-lg overflow-hidden">
+                                    <a href="https://leetcode.com/u/codedname_Ankit/">
+                                        <img src="image.png" alt="leetcode" class="w-40 h-40 object-cover" />
+                                        <div class="p-4">
+                                            <h3 class="text-xl font-bold">Leetcode</h3>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="cast-image bg-gray-800 rounded-lg overflow-hidden">
+                                    <a href="https://www.hackerrank.com/profile/as6064">
+                                        <img src="HackerRank.png" alt="HackerRank" class="w-40 h-40 object-cover" />
+                                        <div class="p-4">
+                                            <h3 class="text-xl font-bold">HackerRank</h3>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="cast-image bg-gray-800 rounded-lg overflow-hidden">
+
+                                    <a href="https://www.codechef.com/users/watch_fort_43">
+                                        <img src="Codechef.png" alt="Codechef" class="w-90 h-40 object-cover" />
+                                        <div class="p-4">
+                                            <h3 class="text-xl font-bold">Codechef</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Previous closing tags remain the same -->
+</body>
+
+</html>
