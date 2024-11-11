@@ -1,238 +1,368 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ankit Kumar Sahu | DSA Portfolio</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
     <style>
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
         }
+        to {
+          opacity: 1;
+        }
+      }
 
-        .netflix-bg {
-            background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0.9) 100%);
-        }
+      .netflix-bg {
+        background: linear-gradient(
+          to top,
+          rgba(0, 0, 0, 0.9) 0%,
+          rgba(0, 0, 0, 0.3) 60%,
+          rgba(0, 0, 0, 0.9) 100%
+        );
+      }
 
-        .netflix-button {
-            transition: all 0.3s ease;
-            background-color: #E50914;
-        }
+      .netflix-button {
+        transition: all 0.3s ease;
+        background-color: #e50914;
+      }
 
-        .netflix-button:hover {
-            background-color: #F40612;
-            transform: scale(1.05);
-        }
+      .netflix-button:hover {
+        background-color: #f40612;
+        transform: scale(1.05);
+      }
 
-        .fade-in {
-            animation: fadeIn 1.5s ease-out;
-        }
+      .fade-in {
+        animation: fadeIn 1.5s ease-out;
+      }
 
-        .netflix-sans {
-            font-family: "Netflix Sans", Arial, sans-serif;
-        }
+      .netflix-sans {
+        font-family: "Netflix Sans", Arial, sans-serif;
+      }
 
-        .skill-tag {
-            transition: all 0.3s ease;
-            background-color: rgba(229, 9, 20, 0.8);
-        }
+      .skill-tag {
+        transition: all 0.3s ease;
+        background-color: rgba(229, 9, 20, 0.8);
+      }
 
-        .skill-tag:hover {
-            transform: scale(1.1);
-            background-color: #E50914;
-        }
+      .skill-tag:hover {
+        transform: scale(1.1);
+        background-color: #e50914;
+      }
 
-        .netflix-card {
-            transition: all 0.3s ease;
-            background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6));
-        }
+      .netflix-card {
+        transition: all 0.3s ease;
+        background: linear-gradient(
+          to top,
+          rgba(0, 0, 0, 0.9),
+          rgba(0, 0, 0, 0.6)
+        );
+      }
 
-        .netflix-card:hover {
-            transform: scale(1.05);
-            box-shadow: 0 0 20px rgba(229, 9, 20, 0.4);
-        }
+      .netflix-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 20px rgba(229, 9, 20, 0.4);
+      }
 
-        .social-icon {
-            transition: all 0.3s ease;
-            color: #E50914;
-        }
+      .social-icon {
+        transition: all 0.3s ease;
+        color: #e50914;
+      }
 
-        .social-icon:hover {
-            transform: scale(1.2);
-            color: #F40612;
-        }
+      .social-icon:hover {
+        transform: scale(1.2);
+        color: #f40612;
+      }
     </style>
-</head>
+  </head>
 
-<body class="bg-black text-white netflix-sans">
+  <body class="bg-black text-white netflix-sans">
     <!-- Netflix Logo -->
-    <nav class="fixed top-0 w-full z-50 bg-gradient-to-b from-black to-transparent p-4">
-        <div class="text-red-600 font-bold text-4xl">
-            NETFLIX
-        </div>
+    <nav
+      class="fixed top-0 w-full z-50 bg-gradient-to-b from-black to-transparent p-4"
+    >
+      <div class="text-red-600 font-bold text-4xl">NETFLIX</div>
     </nav>
 
     <!-- Hero Section -->
     <div class="relative min-h-screen">
-        <div class="absolute inset-0 netflix-bg">
-            <img src="wp2732744-suits-wallpapers.jpg" alt="Background" class="w-full h-full object-cover opacity-40"/>
+      <div class="absolute inset-0 netflix-bg">
+        <img
+          src="wp2732744-suits-wallpapers.jpg"
+          alt="Background"
+          class="w-full h-full object-cover opacity-40"
+        />
+      </div>
+
+      <div class="relative pt-32 px-8 md:px-16 fade-in">
+        <!-- Title and Main Info -->
+        <h1 class="text-7xl font-bold mb-4">Ankit Kumar Sahu</h1>
+        <div class="flex items-center space-x-4 mb-6 text-lg">
+          <span class="text-red-600 font-bold">TOP DSA PROFILE</span>
+          <span class="border px-2">2nd Year</span>
+          <span>BTech CSE</span>
+          <span class="border border-red-600 px-2">IT</span>
         </div>
 
-        <div class="relative pt-32 px-8 md:px-16 fade-in">
-            <!-- Title and Main Info -->
-            <h1 class="text-7xl font-bold mb-4">Ankit Kumar Sahu</h1>
-            <div class="flex items-center space-x-4 mb-6 text-lg">
-                <span class="text-red-600 font-bold">TOP DSA PROFILE</span>
-                <span class="border px-2">2nd Year</span>
-                <span>BTech CSE</span>
-                <span class="border border-red-600 px-2">IT</span>
-            </div>
-
-            <!-- Action Buttons -->
-            <div class="flex space-x-4 mb-8">
-                <button class="netflix-button text-white px-8 py-3 rounded flex items-center space-x-2">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/>
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                    </svg>
-                    <span>View DSA Projects</span>
-                </button>
-                <button class="bg-gray-800 text-white px-8 py-3 rounded flex items-center space-x-2 hover:bg-gray-700">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                    </svg>
-                    <span>More Info</span>
-                </button>
-            </div>
-
-            <!-- Description -->
-            <div class="max-w-3xl mb-12">
-                <p class="text-xl mb-4">Aspiring Software Developer at SRM Institute of Science and Technology, specializing in Information Technology with a strong foundation in Data Structures and Algorithms. Seeking internship opportunities at marquee companies to apply and enhance technical skills.</p>
-            </div>
-
-            <!-- Skills Sections -->
-            <div class="space-y-8 mb-16">
-                <!-- DSA Skills -->
-                <div>
-                    <h2 class="text-2xl font-bold mb-4 text-red-600">DSA Concepts</h2>
-                    <div class="flex flex-wrap gap-3">
-                        <span class="skill-tag px-4 py-2 rounded">Arrays & Strings</span>
-                        <span class="skill-tag px-4 py-2 rounded">Linked Lists</span>
-                        <span class="skill-tag px-4 py-2 rounded">Trees</span>
-                        <span class="skill-tag px-4 py-2 rounded">Dynamic Programming</span>
-                    </div>
-                </div>
-
-                <!-- Programming Skills -->
-                <div>
-                    <h2 class="text-2xl font-bold mb-4 text-red-600">Implementation Skills</h2>
-                    <div class="flex flex-wrap gap-3">
-                        <span class="skill-tag px-4 py-2 rounded">C Programming</span>
-                        <span class="skill-tag px-4 py-2 rounded">C++</span>
-                        <span class="skill-tag px-4 py-2 rounded">Java</span>
-                        <span class="skill-tag px-4 py-2 rounded">OOPS</span>
-                        <span class="skill-tag px-4 py-2 rounded">Problem Solving</span>
-                    </div>
-                </div>
-
-                <!-- Languages -->
-                <div>
-                    <h2 class="text-2xl font-bold mb-4 text-red-600">Languages</h2>
-                    <div class="flex flex-wrap gap-3">
-                        <span class="bg-gray-800 px-4 py-2 rounded hover:bg-gray-700">Hindi</span>
-                        <span class="bg-gray-800 px-4 py-2 rounded hover:bg-gray-700">Odia</span>
-                        <span class="bg-gray-800 px-4 py-2 rounded hover:bg-gray-700">English</span>
-                        <span class="bg-gray-800 px-4 py-2 rounded hover:bg-gray-700">German</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- More Details -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-                <div class="netflix-card p-6 rounded-lg">
-                    <h3 class="text-red-600 text-xl mb-2">Education</h3>
-                    <p class="text-lg">BTech CSE with IT Specialization</p>
-                    <p class="text-gray-400">SRM Institute of Science and Technology</p>
-                </div>
-                <div class="netflix-card p-6 rounded-lg">
-                    <h3 class="text-red-600 text-xl mb-2">Course</h3>
-                    <p class="text-lg">Data Structures and Algorithms</p>
-                    <p class="text-gray-400">2nd Year Core Subject</p>
-                </div>
-                <div class="netflix-card p-6 rounded-lg">
-                    <h3 class="text-red-600 text-xl mb-2">Looking For</h3>
-                    <p class="text-lg">Internships at Marquee Companies</p>
-                </div>
-            </div>
-
-            <!-- Cast Section -->
-            <div class="mb-16">
-                <h2 class="text-4xl font-bold mb-8 text-red-600">Cast</h2>
-                <div class="flex flex-col md:flex-row gap-8">
-                    <div class="netflix-card rounded-lg overflow-hidden">
-                        <img src="me.jpg" alt="Ankit Kumar Sahu" class="w-full md:w-64 h-80 object-cover"/>
-                        <div class="p-4">
-                            <h3 class="text-xl font-bold">Ankit Kumar Sahu</h3>
-                            <p class="text-red-600">Lead Developer</p>
-                        </div>
-                    </div>
-
-                    <!-- Social Media Links Section -->
-                    <div class="flex-1 netflix-card rounded-lg p-6">
-                        <h2 class="text-2xl font-bold mb-6">Connect with the Actor</h2>
-                        <div class="grid grid-cols-2 md:grid-cols-2 gap-6">
-                            <a href="https://github.com/Ankitkumar9955" target="_blank" rel="noopener noreferrer" 
-                               class="social-icon flex items-center space-x-3 hover:text-red-600">
-                                <i class="fab fa-github text-3xl"></i>
-                                <span>GitHub</span>
-                            </a>
-                            <a href="https://www.linkedin.com/in/ankit-kumar-sahu9955/" target="_blank" rel="noopener noreferrer"
-                               class="social-icon flex items-center space-x-3 hover:text-red-600">
-                                <i class="fab fa-linkedin text-3xl"></i>
-                                <span>LinkedIn</span>
-                            </a>
-                            <a href="https://x.com/anrish_kumar" target="_blank" rel="noopener noreferrer"
-                               class="social-icon flex items-center space-x-3 hover:text-red-600">
-                                <i class="fab fa-twitter text-3xl"></i>
-                                <span>Twitter</span>
-                            </a>
-                            <a href="https://medium.com/@anrish.555" target="_blank" rel="noopener noreferrer"
-                               class="social-icon flex items-center space-x-3 hover:text-red-600">
-                                <i class="fab fa-medium text-3xl"></i>
-                                <span>Medium</span>
-                            </a>
-                        </div>
-
-                        <!-- Featured Platforms -->
-                        <div class="mt-8">
-                            <h3 class="text-xl font-bold mb-4 text-red-600">Featured In</h3>
-                            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                                <a href="https://leetcode.com/u/codedname_Ankit/" class="netflix-card rounded-lg overflow-hidden">
-                                    <img src="image.png" alt="leetcode" class="w-full h-40 object-cover"/>
-                                    <div class="p-4">
-                                        <h3 class="text-lg font-bold">Leetcode</h3>
-                                    </div>
-                                </a>
-                                <a href="https://www.hackerrank.com/profile/as6064" class="netflix-card rounded-lg overflow-hidden">
-                                    <img src="HackerRank.png" alt="HackerRank" class="w-full h-40 object-cover"/>
-                                    <div class="p-4">
-                                        <h3 class="text-lg font-bold">HackerRank</h3>
-                                    </div>
-                                </a>
-                                <a href="https://www.codechef.com/users/watch_fort_43" class="netflix-card rounded-lg overflow-hidden">
-                                    <img src="Codechef.png" alt="Codechef" class="w-full h-40 object-cover"/>
-                                    <div class="p-4">
-                                        <h3 class="text-lg font-bold">Codechef</h3>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <!-- Action Buttons -->
+        <div class="flex space-x-4 mb-8">
+          <a
+            href="https://github.com/Ankitkumar9955"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button
+              class="netflix-button text-white px-8 py-3 rounded flex items-center space-x-2"
+            >
+              <svg
+                class="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"
+                />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+              <span>View DSA Projects</span>
+            </button>
+          </a>
+          <button
+            class="bg-gray-800 text-white px-8 py-3 rounded flex items-center space-x-2 hover:bg-gray-700"
+          >
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+              />
+            </svg>
+            <span>More Info</span>
+          </button>
         </div>
+
+        <!-- Description -->
+        <div class="max-w-3xl mb-12">
+          <p class="text-xl mb-4">
+            Aspiring Software Developer at SRM Institute of Science and
+            Technology, specializing in Information Technology with a strong
+            foundation in Data Structures and Algorithms. Seeking internship
+            opportunities at marquee companies to apply and enhance technical
+            skills.
+          </p>
+        </div>
+
+        <!-- Skills Sections -->
+        <div class="space-y-8 mb-16">
+          <!-- DSA Skills -->
+          <div>
+            <h2 class="text-2xl font-bold mb-4 text-red-600">DSA Concepts</h2>
+            <div class="flex flex-wrap gap-3">
+              <span class="skill-tag px-4 py-2 rounded">Arrays & Strings</span>
+              <span class="skill-tag px-4 py-2 rounded">Linked Lists</span>
+              <span class="skill-tag px-4 py-2 rounded"
+                >Dynamic Programming</span
+              >
+              <span class="skill-tag px-4 py-2 rounded">Stack</span>
+              <span class="skill-tag px-4 py-2 rounded">Queues</span>
+              <span class="skill-tag px-4 py-2 rounded">Trees</span>
+              <span class="skill-tag px-4 py-2 rounded"
+                >Binary Search Tree</span
+              >
+              <span class="skill-tag px-4 py-2 rounded">B-Tree</span>
+              <span class="skill-tag px-4 py-2 rounded">AVL Tree</span>
+              <span class="skill-tag px-4 py-2 rounded">Trees</span>
+              <span class="skill-tag px-4 py-2 rounded">Graphs</span>
+              <span class="skill-tag px-4 py-2 rounded"
+                >Dijkstra's algorithm</span
+              >
+              <span class="skill-tag px-4 py-2 rounded">Hashing</span>
+            </div>
+          </div>
+
+          <!-- Programming Skills -->
+          <div>
+            <h2 class="text-2xl font-bold mb-4 text-red-600">
+              Implementation Skills
+            </h2>
+            <div class="flex flex-wrap gap-3">
+              <span class="skill-tag px-4 py-2 rounded">C Programming</span>
+              <span class="skill-tag px-4 py-2 rounded">C++</span>
+              <span class="skill-tag px-4 py-2 rounded">Java</span>
+              <span class="skill-tag px-4 py-2 rounded">OOPS</span>
+              <span class="skill-tag px-4 py-2 rounded">Problem Solving</span>
+            </div>
+          </div>
+
+          <!-- Languages -->
+          <div>
+            <h2 class="text-2xl font-bold mb-4 text-red-600">Languages</h2>
+            <div class="flex flex-wrap gap-3">
+              <span class="bg-gray-800 px-4 py-2 rounded hover:bg-gray-700"
+                >Hindi</span
+              >
+              <span class="bg-gray-800 px-4 py-2 rounded hover:bg-gray-700"
+                >Odia</span
+              >
+              <span class="bg-gray-800 px-4 py-2 rounded hover:bg-gray-700"
+                >English</span
+              >
+              <span class="bg-gray-800 px-4 py-2 rounded hover:bg-gray-700"
+                >German</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- More Details -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+          <div class="netflix-card p-6 rounded-lg">
+            <h3 class="text-red-600 text-xl mb-2">Education</h3>
+            <p class="text-lg">BTech CSE with IT Specialization</p>
+            <p class="text-gray-400">SRM Institute of Science and Technology</p>
+          </div>
+          <div class="netflix-card p-6 rounded-lg">
+            <h3 class="text-red-600 text-xl mb-2">Course</h3>
+            <p class="text-lg">Data Structures and Algorithms</p>
+            <p class="text-gray-400">2nd Year Core Subject</p>
+          </div>
+          <div class="netflix-card p-6 rounded-lg">
+            <h3 class="text-red-600 text-xl mb-2">Looking For</h3>
+            <p class="text-lg">Internships at Marquee Companies</p>
+          </div>
+        </div>
+
+        <!-- Cast Section -->
+        <div class="mb-16">
+          <h2 class="text-4xl font-bold mb-8 text-red-600">Cast</h2>
+          <div class="flex flex-col md:flex-row gap-8">
+            <div class="netflix-card rounded-lg overflow-hidden">
+              <img
+                src="me.jpg"
+                alt="Ankit Kumar Sahu"
+                class="w-full md:w-64 h-80 object-cover"
+              />
+              <div class="p-4">
+                <h3 class="text-xl font-bold">Ankit Kumar Sahu</h3>
+                <p class="text-red-600">Lead Developer</p>
+              </div>
+            </div>
+
+            <!-- Social Media Links Section -->
+            <div class="flex-1 netflix-card rounded-lg p-6">
+              <h2 class="text-2xl font-bold mb-6">Connect with the Actor</h2>
+              <div class="grid grid-cols-2 md:grid-cols-2 gap-6">
+                <a
+                  href="https://github.com/Ankitkumar9955"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="social-icon flex items-center space-x-3 hover:text-red-600"
+                >
+                  <i class="fab fa-github text-3xl"></i>
+                  <span>GitHub</span>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/ankit-kumar-sahu9955/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="social-icon flex items-center space-x-3 hover:text-red-600"
+                >
+                  <i class="fab fa-linkedin text-3xl"></i>
+                  <span>LinkedIn</span>
+                </a>
+                <a
+                  href="https://x.com/anrish_kumar"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="social-icon flex items-center space-x-3 hover:text-red-600"
+                >
+                  <i class="fab fa-twitter text-3xl"></i>
+                  <span>Twitter</span>
+                </a>
+                <a
+                  href="https://medium.com/@anrish.555"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="social-icon flex items-center space-x-3 hover:text-red-600"
+                >
+                  <i class="fab fa-medium text-3xl"></i>
+                  <span>Medium</span>
+                </a>
+              </div>
+
+              <!-- Featured Platforms -->
+              <div class="mt-8">
+                <h3 class="text-xl font-bold mb-4 text-red-600">Featured In</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                  <a
+                    href="https://leetcode.com/u/codedname_Ankit/"
+                    class="netflix-card rounded-lg overflow-hidden"
+                  >
+                    <img
+                      src="image.png"
+                      alt="leetcode"
+                      class="w-full h-40 object-cover"
+                    />
+                    <div class="p-4">
+                      <h3 class="text-lg font-bold">Leetcode</h3>
+                    </div>
+                  </a>
+                  <a
+                    href="https://www.hackerrank.com/profile/as6064"
+                    class="netflix-card rounded-lg overflow-hidden"
+                  >
+                    <img
+                      src="HackerRank.png"
+                      alt="HackerRank"
+                      class="w-full h-40 object-cover"
+                    />
+                    <div class="p-4">
+                      <h3 class="text-lg font-bold">HackerRank</h3>
+                    </div>
+                  </a>
+                  <a
+                    href="https://www.codechef.com/users/watch_fort_43"
+                    class="netflix-card rounded-lg overflow-hidden"
+                  >
+                    <img
+                      src="Codechef.png"
+                      alt="Codechef"
+                      class="w-full h-40 object-cover"
+                    />
+                    <div class="p-4">
+                      <h3 class="text-lg font-bold">Codechef</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
